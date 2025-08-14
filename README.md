@@ -11,9 +11,9 @@ A modern, streaming chat interface for interacting with Google's Gemini AI model
 ## Architecture
 
 ```
-Frontend (React) → S3 Static Hosting → CloudFront CDN
-                      ↓
-Backend (FastAPI) → Docker Container → EC2 Instance → Load Balancer
+Frontend (React) → S3 Static Hosting 
+                      
+Backend (FastAPI) → Docker Container → EC2 Instance 
                       ↓
                   Gemini AI API
 ```
